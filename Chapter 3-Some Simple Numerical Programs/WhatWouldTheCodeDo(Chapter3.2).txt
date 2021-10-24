@@ -1,0 +1,4 @@
+"""
+@author: efemuratucarli
+"""
+If x =-25 or, more generally speaking if x is a negative number the while loop would never terminate, become an infinite loop and the variable ans would get closer and closer to 0.
