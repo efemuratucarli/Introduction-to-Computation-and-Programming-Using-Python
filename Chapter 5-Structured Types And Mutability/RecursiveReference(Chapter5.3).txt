@@ -1,0 +1,10 @@
+"""
+@author: efemuratucarli
+
+"""
+#What does the following code print?
+L = [1, 2, 3]
+L.append(L)
+print(L is L[-1])
+
+It will print out True because L's last item is itself. It is a recursive reference. It is pointing out itself.
