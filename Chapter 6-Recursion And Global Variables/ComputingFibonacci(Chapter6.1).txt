@@ -1,0 +1,11 @@
+"""
+Created on Tue Oct 26 12:50:21 2021
+
+@author: efemuratucarli
+"""
+#When the implementation of fib in Figure 6-3 is
+used to compute fib(5), how many times does it compute the value
+of fib(2) on the way to computing fib(5)?
+
+fib5 will call fib4 and fib3 , fib4 will call fib3 + fib2, fib3 will call fib2 + fib1
+That means when we call fib5 it will compute the value of fib(2) 3 times. Two in fib4 call(one in when fib4 call fib3 + fib2 , other in when fib3 call fib2 + fib1), one in fib3 call.
