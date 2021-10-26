@@ -1,0 +1,6 @@
+"""
+@author: efemuratucarli
+
+"""
+#What does s.find(sub) return if sub does not occur in s ?
+It returns -1 if sub is not found.
