@@ -1,0 +1,14 @@
+"""
+Created on Sun Nov 28 23:46:19 2021
+
+@author: efemuratucarli
+"""
+#Finger exercise: What is the value of the following expression?
+#isinstance('ab', str) == isinstance(str, str)
+
+isinstance function checks that whether its first argument is a instance of the second argument. If it is, it return true. Otherwise false.
+isinstance('ab', str) 'ab' is a instance of a string type thus it will return true. isinstance(str, str) str denotes string type so it is not a instance of string 
+type. It is a instance of type. Therefore "isinstance(str, str)" will return false. The whole expression isinstance('ab', str) == isinstance(str, str)
+will become "true == false" because of that the value of isinstance('ab', str) == isinstance(str, str) is false. 
+In other words isinstance('ab', str) == isinstance(str, str) will return False.
+
